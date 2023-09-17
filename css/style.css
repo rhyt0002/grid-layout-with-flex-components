@@ -24,17 +24,21 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    margin-top: auto;
   }
-  
+ 
   .icon {
     font-size: 4rem;
+    order: -1;
+    text-align: center;
   }
+  /* arranging the cards */
   .emojis{
     display: grid;
     grid-template-areas: 
     "smile mugs"
     "tears seed";
-    gap: 10px;
+    gap: 15px;
   }
   .emojis:nth-child(1){
     grid-area: smile;
